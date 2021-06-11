@@ -4,4 +4,6 @@
 В проекте используются:
   - HTML
   - CSS
+  - JavaScript
   - Normalize.css
+  - Fancybox
