@@ -17,6 +17,14 @@
                 <img width="46" height="71" src="img/logo.png" alt="Тут был Веном" class="logo_image">
             </a>
             <nav class="nav">
+                <button class="menu_button">
+                    <span class="menu_button_text">меню</span>
+                    <img src="img/menu.svg" alt="" class="menu_button_icon">
+                </button>
+                <button class="menu_close">
+                    <span class="menu_close_text">закрыть</span>
+                    <img src="img/arrow.svg" alt="Arrow" class="menu_close_icon">
+                </button>
                 <ul class="nav_menu">
                     <li class="nav_menu_item">
                         <a href="about.html" class="nav_menu_link">о фильме</a>
@@ -52,9 +60,9 @@
                     <li class="list_item">Пегги Лу</li>
                 </ul>
                 <div class="trailer">
-                    <button class="play">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=rrwBnlYOp4g" class="play">
                         <img src="img/play.svg" alt="Иконка Play" class="play_icon">
-                    </button>
+                    </a>
                 </div>
                 <!-- /.trailer -->
             </div>
@@ -85,5 +93,6 @@
             <!-- /.col -->
         </div>
         <!-- /.content -->
+        <script src="js/main.js"></script>
 </body>
 </html>
